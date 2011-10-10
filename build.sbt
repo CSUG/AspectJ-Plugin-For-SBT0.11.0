@@ -10,7 +10,8 @@ publishMavenStyle := true
 
 scalacOptions := Seq("-deprecation", "-unchecked")
 
+javacOptions ++= Seq("-source", "1.5")
+
 resolvers += "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/"
 
-libraryDependencies ++= Seq("org.aspectj" % "aspectjtools" % "1.6.11.RELEASE", "org.aspectj" % "aspectjrt" % "1.6.11.RELEASE","org.aspectj" % "aspectjweaver" % "1.6.11.RELEASE")
-
+libraryDependencies ++= Seq("org.aspectj" % "aspectjtools" % "1.6.11.RELEASE", "org.aspectj" % "aspectjrt" % "1.6.11.RELEASE")
