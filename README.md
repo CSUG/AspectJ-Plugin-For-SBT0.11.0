@@ -4,6 +4,7 @@ You may wonder why I reinvent such a wheel, since there are alternatives for suc
 
 ## How to Use it?
 It's simple, just put following lines into your $PROJECT_ROOT/project/plugins/build.sbt:
+
 > resolvers += Resolver.url("githubResolver", url("git://github.com/fujohnwang/AspectJ-Plugin-For-SBT0.11.0.git"))
 >
 > addSbtPlugin("name.fujohnwang" % "aspectj\_sbt\_plugin" % "0.0.1") 
