@@ -12,6 +12,7 @@ It's simple, just put following lines into your $PROJECT_ROOT/project/plugins/bu
 If you don't want to do other customizations, then its done.
 
 Before running your main scala class(es), and if you want to weave in your aspects into the byte codes, run:
+
 > aspect:weave
 
 After that, your running result will reflect the weaved result(s).
